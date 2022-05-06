@@ -1,4 +1,4 @@
-public class VarEx13 {
+public class VarEx13_1 {
     public static void main(String[] args) {
 //        int i = 5;
 //        while (i-- != 0) {
