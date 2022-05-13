@@ -4,7 +4,7 @@ public class Ex3_1 {
         t = new Tv();
 
         t.channel = 7;
-        t.channerlDown();
+        t.channelDown();
         System.out.println("현재 채널은 "+t.channel+"입니다.");
     }
 }
@@ -22,7 +22,7 @@ class Tv{
         ++channel;
     }
 
-    void channerlDown() {
+    void channelDown() {
         --channel;
     }
 }
