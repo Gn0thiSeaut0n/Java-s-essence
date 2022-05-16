@@ -6,6 +6,7 @@ public class Ex3_3 {
         long result2 = mm.subtract(5L, 3L);
         long result3 = mm.multiply(5L, 3L);
         double result4 = mm.divide(5L, 3L);
+        mm.printGugudan(3);
 
         System.out.println("max = " + result);
         System.out.println("add = " + result1);
@@ -16,12 +17,24 @@ public class Ex3_3 {
     }
 }
 
-class MyMath{
+class MyMath {
+    void printGugudan(int dan) {
+        if (!(2 <= dan && dan <= 9)) {
+            return;
+        }
+        for (int i = 1; i <= 9; i++) {
+            System.out.printf("%d * %d = %d%n", dan, i, dan * i);
+        }
+//        return; void는 생략 가능
+    }
+
     long add(long a, long b) {
         return a + b;
     }
 
-    long max(long a, long b) { return a > b ? a : b; }
+    long max(long a, long b) {
+        return a > b ? a : b;
+    }
 
     long subtract(long a, long b) {
         return a - b;
