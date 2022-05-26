@@ -9,6 +9,8 @@ public class Ex4_2 {
         System.out.println("c.p.y = " + c.p.y);
         System.out.println("c.r = " + c.r);
 
+        System.out.println(c); // println 기능 = 알아서 toString까지 해줌
+        System.out.println(c.toString());
     }
 }
 
