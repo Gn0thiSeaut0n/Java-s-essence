@@ -19,7 +19,6 @@ public class Ex7_02 {
     }
 
     public static String toString(Calendar date) {
-
         return date.get(Calendar.YEAR) + "년 " + (date.get(Calendar.MONTH) + 1) + "월 " + date.get(Calendar.DATE) + "일 ";
     }
 }
