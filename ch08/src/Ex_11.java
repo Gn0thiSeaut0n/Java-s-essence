@@ -28,8 +28,6 @@ public class Ex_11 {
         setA.removeAll(setB); // 차집합
         System.out.println(setA);
 
-
-
 //        Iterator it = setB.iterator();
 //        while (it.hasNext()) {
 //            Object tmp = it.next();
