@@ -8,5 +8,19 @@ public class GenericTest {
         list.add(30);
 
         System.out.println(list);
+
+        ArrayList<Tv> list1 = new ArrayList<Tv>();
+        list1.add(new Tv());
+//        list1.add(new Audio());
+//        Tv t = (Tv) list1.get(0);
+        Tv t1 = list1.get(0);
     }
+}
+
+class Tv {
+
+}
+
+class Audio {
+
 }
