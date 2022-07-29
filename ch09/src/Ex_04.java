@@ -23,6 +23,15 @@ public class Ex_04 {
         System.out.println("appleBox - " + appleBox);
         System.out.println("grapeBox - " + grapeBox);
 
+        Box b = null;
+        Box<String> bStr = null;
+
+        b = (Box) bStr; // 가능 but 경고
+        bStr = (Box<String>)b; // 가능 bu 경고
+
+        FruitBox<? extends Fruit> fbox = (FruitBox<? extends Fruit>) new FruitBox<Fruit>();
+        FruitBox<? extends Fruit> abox = new FruitBox<Apple>();
+        FruitBox<Apple> appleFruitBox = (FruitBox<Apple>) abox;
     }
 }
 
