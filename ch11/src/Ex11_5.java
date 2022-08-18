@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Ex14_4 {
+public class Ex11_5 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
